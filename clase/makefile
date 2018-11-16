@@ -8,5 +8,6 @@ all: integral.x
 integral.x:
 	mpicc integra.c -o integral.x
 clean:
+	rm *.png
 	rm *.x
 	rm *.dat
