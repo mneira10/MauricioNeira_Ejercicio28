@@ -2,7 +2,7 @@
 #PBS -l nodes=1:ppn=4,mem=1gb,walltime=00:10:00
 #PBS -M m.neira10@uniandes.edu.co
 #PBS -m abe
-#PBS -N mneira10_sample
+#PBS -N mneira10_integral
 #PBS -j oe
 
 

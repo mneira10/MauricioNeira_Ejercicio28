@@ -1,4 +1,7 @@
-all: integral.x
+results.png: runs.dat
+	python3 graph.py
+
+runs.dat: integral.x
 	mpiexec -np 4 ./integral.x 1000 >> runs.dat
 	mpiexec -np 4 ./integral.x 10000 >> runs.dat	
 	mpiexec -np 4 ./integral.x 100000 >> runs.dat
