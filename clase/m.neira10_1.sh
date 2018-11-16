@@ -9,5 +9,5 @@
 module load anaconda/python3 
 module load gcc/4.9.4 
 module load openmpi/1.8.5
-cd /hpcfs/home/fisi4028/m.neira10/MauricioNeira_Ejercicio27/2nda_parte
+cd /hpcfs/home/fisi4028/m.neira10/MauricioNeira_Ejercicio28/clase
 make
